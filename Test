@@ -1,0 +1,505 @@
+{
+  "categories": [
+    {
+      "id": "server-tools",
+      "label": "🖥️ Server & Bot Tools",
+      "color": "#00f5d4"
+    },
+    {
+      "id": "ai",
+      "label": "🤖 AI Tools",
+      "color": "#7c3aed"
+    },
+    {
+      "id": "dev",
+      "label": "⚙️ Dev & Hosting",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "social",
+      "label": "📱 Social & Media",
+      "color": "#ec4899"
+    },
+    {
+      "id": "entertainment",
+      "label": "🎬 Entertainment",
+      "color": "#ef4444"
+    },
+    {
+      "id": "anime",
+      "label": "✨ Anime",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "design",
+      "label": "🎨 Design & Assets",
+      "color": "#84cc16"
+    },
+    {
+      "id": "tools",
+      "label": "🛠️ Utilities",
+      "color": "#f97316"
+    },
+    {
+      "id": "storage",
+      "label": "📦 Storage & Files",
+      "color": "#64748b"
+    },
+    {
+      "id": "minecraft",
+      "label": "⛏️ Minecraft",
+      "color": "#22c55e"
+    },
+    {
+      "id": "business",
+      "label": "💼 Business & Money",
+      "color": "#eab308"
+    },
+    {
+      "id": "google",
+      "label": "🔍 Google Suite",
+      "color": "#4285f4"
+    },
+    {
+      "id": "personal",
+      "label": "🌐 Personal Sites",
+      "color": "#a855f7"
+    }
+  ],
+  "sites": [
+    {
+      "name": "Pterodactyl Panel",
+      "url": "https://ptero.heo-systems.com/",
+      "description": "Game server management panel. Deploy, manage, and monitor your game servers with a sleek web UI.",
+      "category": "server-tools",
+      "tags": ["free", "servers", "panel"],
+      "pricing": "free",
+      "icon": "🦕"
+    },
+    {
+      "name": "TicketTool",
+      "url": "https://tickettool.xyz/dashboard/",
+      "description": "Discord ticket management bot dashboard. Create support tickets, manage staff, and track issues on your server.",
+      "category": "server-tools",
+      "tags": ["free/paid", "discord", "tickets"],
+      "pricing": "freemium",
+      "icon": "🎫"
+    },
+    {
+      "name": "Maki Bot",
+      "url": "https://maki.gg/en-GB/dashboard",
+      "description": "All-in-one Discord bot dashboard. Moderation, music, leveling, and more for your Discord community.",
+      "category": "server-tools",
+      "tags": ["free/paid", "discord", "bot"],
+      "pricing": "freemium",
+      "icon": "🤖"
+    },
+    {
+      "name": "Dyno Bot",
+      "url": "https://dyno.gg/account",
+      "description": "Feature-rich Discord moderation bot. Automod, custom commands, music, and server management tools.",
+      "category": "server-tools",
+      "tags": ["free/paid", "discord", "moderation"],
+      "pricing": "freemium",
+      "icon": "🦖"
+    },
+    {
+      "name": "Tebex Creator",
+      "url": "https://creator.tebex.io/dashboard",
+      "description": "Game monetization platform. Sell in-game items, ranks, and perks for your gaming community store.",
+      "category": "server-tools",
+      "tags": ["free/paid", "store", "monetize"],
+      "pricing": "freemium",
+      "icon": "🛒"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "description": "OpenAI's conversational AI assistant. Write, code, analyze, and brainstorm with powerful language models.",
+      "category": "ai",
+      "tags": ["free/paid", "ai", "chat"],
+      "pricing": "freemium",
+      "icon": "💬"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "description": "Anthropic's AI assistant. Thoughtful, helpful, and safe AI for writing, coding, analysis, and more.",
+      "category": "ai",
+      "tags": ["free/paid", "ai", "chat"],
+      "pricing": "freemium",
+      "icon": "🧠"
+    },
+    {
+      "name": "DeepSeek Chat",
+      "url": "https://chat.deepseek.com/",
+      "description": "Powerful Chinese AI assistant with strong reasoning and coding capabilities. Fast and free to use.",
+      "category": "ai",
+      "tags": ["free", "ai", "coding"],
+      "pricing": "free",
+      "icon": "🔍"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "description": "The world's largest code hosting platform. Version control, collaboration, CI/CD, and open source projects.",
+      "category": "dev",
+      "tags": ["free/paid", "git", "code"],
+      "pricing": "freemium",
+      "icon": "🐙"
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://dash.cloudflare.com/",
+      "description": "Web infrastructure and security platform. DNS, CDN, DDoS protection, and serverless computing.",
+      "category": "dev",
+      "tags": ["free/paid", "dns", "cdn"],
+      "pricing": "freemium",
+      "icon": "☁️"
+    },
+    {
+      "name": "Firebase",
+      "url": "https://firebase.google.com/",
+      "description": "Google's app development platform. Backend-as-a-service with database, auth, hosting, and analytics.",
+      "category": "dev",
+      "tags": ["free/paid", "backend", "google"],
+      "pricing": "freemium",
+      "icon": "🔥"
+    },
+    {
+      "name": "Gmail",
+      "url": "https://mail.google.com/mail/u/0/#inbox",
+      "description": "Google's email service. Manage all your emails, contacts, and communication in one place.",
+      "category": "google",
+      "tags": ["free", "email", "google"],
+      "pricing": "free",
+      "icon": "📧"
+    },
+    {
+      "name": "Google Passwords",
+      "url": "https://passwords.google.com/",
+      "description": "Google Password Manager. Securely store, manage, and auto-fill your passwords across all devices.",
+      "category": "google",
+      "tags": ["free", "security", "google"],
+      "pricing": "free",
+      "icon": "🔐"
+    },
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/",
+      "description": "Monitor your website's presence in Google Search results. Track performance and fix indexing issues.",
+      "category": "google",
+      "tags": ["free", "seo", "google"],
+      "pricing": "free",
+      "icon": "🔎"
+    },
+    {
+      "name": "Google Trends",
+      "url": "https://trends.google.com/",
+      "description": "Explore what the world is searching. Discover trending topics and compare search interest over time.",
+      "category": "google",
+      "tags": ["free", "analytics", "google"],
+      "pricing": "free",
+      "icon": "📈"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/",
+      "description": "World's largest video platform. Watch, upload, and share videos across every topic imaginable.",
+      "category": "social",
+      "tags": ["free/paid", "video", "social"],
+      "pricing": "freemium",
+      "icon": "▶️"
+    },
+    {
+      "name": "YouTube Music",
+      "url": "https://music.youtube.com/",
+      "description": "Google's music streaming service. Stream millions of songs, albums, and music videos ad-free.",
+      "category": "social",
+      "tags": ["free/paid", "music", "google"],
+      "pricing": "freemium",
+      "icon": "🎵"
+    },
+    {
+      "name": "X (Twitter)",
+      "url": "https://x.com/home",
+      "description": "Formerly Twitter. Real-time social network for news, opinions, memes, and global conversations.",
+      "category": "social",
+      "tags": ["free/paid", "social", "news"],
+      "pricing": "freemium",
+      "icon": "𝕏"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/",
+      "description": "Short-form video platform. Discover viral videos, trending content, and creator communities.",
+      "category": "social",
+      "tags": ["free", "video", "social"],
+      "pricing": "free",
+      "icon": "🎶"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/",
+      "description": "Photo and video sharing social platform. Follow creators, post stories, and browse the Explore feed.",
+      "category": "social",
+      "tags": ["free", "photos", "social"],
+      "pricing": "free",
+      "icon": "📸"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/",
+      "description": "Leading music streaming service. Access over 100M songs, podcasts, and playlists worldwide.",
+      "category": "entertainment",
+      "tags": ["free/paid", "music", "streaming"],
+      "pricing": "freemium",
+      "icon": "🎧"
+    },
+    {
+      "name": "AnimeHeaven",
+      "url": "https://animeheaven.me/",
+      "description": "Stream anime online for free. Huge library of subbed and dubbed anime series and movies.",
+      "category": "anime",
+      "tags": ["free", "anime", "streaming"],
+      "pricing": "free",
+      "icon": "🌸"
+    },
+    {
+      "name": "Animetsu",
+      "url": "https://animetsu.net/",
+      "description": "Free anime streaming site with a clean UI. Watch the latest seasonal anime and classics.",
+      "category": "anime",
+      "tags": ["free", "anime", "streaming"],
+      "pricing": "free",
+      "icon": "⛩️"
+    },
+    {
+      "name": "AniKai",
+      "url": "https://www1.anikai.cc/",
+      "description": "Anime streaming platform with fast servers. Watch subbed and dubbed anime without registration.",
+      "category": "anime",
+      "tags": ["free", "anime", "streaming"],
+      "pricing": "free",
+      "icon": "🗡️"
+    },
+    {
+      "name": "HentaiHaven",
+      "url": "https://hentaihaven.com/",
+      "description": "18+ adult anime content platform. Large library of hentai series and OVAs. Adults only.",
+      "category": "anime",
+      "tags": ["free", "18+", "adult"],
+      "pricing": "free",
+      "icon": "🔞",
+      "adult": true
+    },
+    {
+      "name": "Hanime",
+      "url": "https://hanime.tv/home",
+      "description": "18+ premium adult anime streaming. HD quality hentai content library with regular updates. Adults only.",
+      "category": "anime",
+      "tags": ["free/paid", "18+", "adult"],
+      "pricing": "freemium",
+      "icon": "🔞",
+      "adult": true
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com/en_gb/",
+      "description": "Drag-and-drop design platform. Create stunning graphics, presentations, social media posts, and more.",
+      "category": "design",
+      "tags": ["free/paid", "design", "graphics"],
+      "pricing": "freemium",
+      "icon": "🎨"
+    },
+    {
+      "name": "Lucide Icons",
+      "url": "https://lucide.dev/icons/",
+      "description": "Beautiful open-source icon library. 1000+ consistent SVG icons for use in web and app projects.",
+      "category": "design",
+      "tags": ["free", "icons", "svg"],
+      "pricing": "free",
+      "icon": "✦"
+    },
+    {
+      "name": "Iconer",
+      "url": "https://iconer.app/",
+      "description": "Icon search engine and converter. Find and download icons from multiple popular icon libraries.",
+      "category": "design",
+      "tags": ["free", "icons", "design"],
+      "pricing": "free",
+      "icon": "🖼️"
+    },
+    {
+      "name": "HTML Color Codes",
+      "url": "https://htmlcolorcodes.com/",
+      "description": "Color picker, palettes, and reference tool. Find hex codes, RGB values, and build color schemes.",
+      "category": "design",
+      "tags": ["free", "colors", "design"],
+      "pricing": "free",
+      "icon": "🎨"
+    },
+    {
+      "name": "Font Changer",
+      "url": "https://www.fontchanger.net/",
+      "description": "Generate fancy Unicode text for free. Convert normal text to stylish fonts for social media profiles.",
+      "category": "design",
+      "tags": ["free", "fonts", "text"],
+      "pricing": "free",
+      "icon": "🔤"
+    },
+    {
+      "name": "iLoveIMG",
+      "url": "https://www.iloveimg.com/",
+      "description": "Online image editing suite. Resize, compress, crop, convert, and watermark images in your browser.",
+      "category": "tools",
+      "tags": ["free/paid", "images", "convert"],
+      "pricing": "freemium",
+      "icon": "🖼️"
+    },
+    {
+      "name": "CloudConvert",
+      "url": "https://cloudconvert.com/webp-to-jpg",
+      "description": "Universal file conversion tool. Convert between 200+ file formats including images, video, audio, docs.",
+      "category": "tools",
+      "tags": ["free/paid", "convert", "files"],
+      "pricing": "freemium",
+      "icon": "🔄"
+    },
+    {
+      "name": "Web2PDF",
+      "url": "https://www.web2pdfconvert.com/",
+      "description": "Convert any web page to a PDF file online. Great for saving articles, portfolios, or web content.",
+      "category": "tools",
+      "tags": ["free/paid", "pdf", "convert"],
+      "pricing": "freemium",
+      "icon": "📄"
+    },
+    {
+      "name": "DNS Checker",
+      "url": "https://dnschecker.org/",
+      "description": "Global DNS propagation checker. Verify DNS records are live worldwide and troubleshoot domain issues.",
+      "category": "tools",
+      "tags": ["free", "dns", "network"],
+      "pricing": "free",
+      "icon": "🌐"
+    },
+    {
+      "name": "GitMind",
+      "url": "https://gitmind.com/",
+      "description": "AI-powered mind mapping and flowchart tool. Brainstorm ideas, plan projects, and create visual diagrams.",
+      "category": "tools",
+      "tags": ["free/paid", "mindmap", "diagrams"],
+      "pricing": "freemium",
+      "icon": "🧩"
+    },
+    {
+      "name": "LootLabs Creators",
+      "url": "https://creators.lootlabs.gg/",
+      "description": "Monetize your content with link lockers and reward gates. Earn money from your downloads and links.",
+      "category": "tools",
+      "tags": ["free", "monetize", "links"],
+      "pricing": "free",
+      "icon": "💰"
+    },
+    {
+      "name": "MediaFire",
+      "url": "https://www.mediafire.com/",
+      "description": "Cloud storage and file sharing platform. Upload, store, and share files with easy direct download links.",
+      "category": "storage",
+      "tags": ["free/paid", "storage", "files"],
+      "pricing": "freemium",
+      "icon": "📁"
+    },
+    {
+      "name": "Imgur",
+      "url": "https://imgur.com/",
+      "description": "Image hosting and community platform. Upload and share images and GIFs with direct links.",
+      "category": "storage",
+      "tags": ["free", "images", "hosting"],
+      "pricing": "free",
+      "icon": "🖼️"
+    },
+    {
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com/",
+      "description": "Cloud storage and file synchronization service. Store, sync, and collaborate on files across all your devices.",
+      "category": "storage",
+      "tags": ["free/paid", "storage", "sync"],
+      "pricing": "freemium",
+      "icon": "📦"
+    },
+    {
+      "name": "MC Packs",
+      "url": "https://mc-packs.net/",
+      "description": "Minecraft resource pack hosting. Upload and share Minecraft texture packs with direct download links.",
+      "category": "minecraft",
+      "tags": ["free", "minecraft", "packs"],
+      "pricing": "free",
+      "icon": "⛏️"
+    },
+    {
+      "name": "MC Utils",
+      "url": "https://mcutils.com/",
+      "description": "Minecraft utility tools. UUID lookup, skin viewer, server icon generator, and other Minecraft helpers.",
+      "category": "minecraft",
+      "tags": ["free", "minecraft", "tools"],
+      "pricing": "free",
+      "icon": "🔧"
+    },
+    {
+      "name": "MC Statistics",
+      "url": "https://mcstatistics.org/",
+      "description": "Minecraft server statistics and analytics. Track player counts, server uptime, and performance metrics.",
+      "category": "minecraft",
+      "tags": ["free", "minecraft", "stats"],
+      "pricing": "free",
+      "icon": "📊"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://www.paypal.com/",
+      "description": "Global online payments platform. Send, receive, and manage money securely for personal and business use.",
+      "category": "business",
+      "tags": ["free", "payments", "finance"],
+      "pricing": "free",
+      "icon": "💳"
+    },
+    {
+      "name": "G2G",
+      "url": "https://www.g2g.com/",
+      "description": "Gaming marketplace for buying and selling in-game items, currency, accounts, and boosting services.",
+      "category": "business",
+      "tags": ["free", "gaming", "marketplace"],
+      "pricing": "free",
+      "icon": "🎮"
+    },
+    {
+      "name": "WhatExpsAre",
+      "url": "https://whatexpsare.online/",
+      "description": "Check what experience rates are currently active on various games. Stay updated on XP boost events.",
+      "category": "tools",
+      "tags": ["free", "gaming", "tracker"],
+      "pricing": "free",
+      "icon": "⭐"
+    },
+    {
+      "name": "Legends",
+      "url": "https://nexosites.xyz/",
+      "description": "Custom gaming community website builder. Create professional sites for your game server or community.",
+      "category": "personal",
+      "tags": ["free/paid", "websites", "gaming"],
+      "pricing": "freemium",
+      "icon": "🌐"
+    },
+    {
+      "name": "Kings",
+      "url": "https://nexoriarealm.xyz/",
+      "description": "Gaming community and realm platform. Connect with players, manage your realm, and build your community.",
+      "category": "personal",
+      "tags": ["free/paid", "gaming", "community"],
+      "pricing": "freemium",
+      "icon": "🏰"
+    }
+  ]
+}
