@@ -284,25 +284,7 @@
       "icon": "🗡️"
     },
     {
-      "name": "HentaiHaven",
-      "url": "https://hentaihaven.com/",
-      "description": "18+ adult anime content platform. Large library of hentai series and OVAs. Adults only.",
-      "category": "anime",
-      "tags": ["free", "18+", "adult"],
-      "pricing": "free",
-      "icon": "🔞",
-      "adult": true
-    },
-    {
-      "name": "Hanime",
-      "url": "https://hanime.tv/home",
-      "description": "18+ premium adult anime streaming. HD quality hentai content library with regular updates. Adults only.",
-      "category": "anime",
-      "tags": ["free/paid", "18+", "adult"],
-      "pricing": "freemium",
-      "icon": "🔞",
-      "adult": true
-    },
+    
     {
       "name": "Canva",
       "url": "https://www.canva.com/en_gb/",
