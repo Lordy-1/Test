@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickLaunch — Your Web Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Animated background -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">QuickLaunch</span>
+      </div>
+      <div class="header-right">
+        <div class="search-wrap">
+          <span class="search-icon">⌕</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search sites..." autocomplete="off" />
+          <kbd class="kbd-hint">Ctrl+K</kbd>
+        </div>
+        <div class="site-count" id="siteCount">— sites</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Category Filter Bar -->
+  <nav class="filter-bar" id="filterBar">
+    <div class="filter-scroll">
+      <button class="filter-btn active" data-cat="all">All Sites</button>
+      <!-- Categories injected by JS -->
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main" id="main">
+    <div class="grid" id="siteGrid">
+      <!-- Cards injected by JS -->
+    </div>
+    <div class="empty-state" id="emptyState" style="display:none;">
+      <div class="empty-icon">🔭</div>
+      <p>No sites found for "<span id="emptyQuery"></span>"</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Edit <code>sites.json</code> to add or remove sites · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
